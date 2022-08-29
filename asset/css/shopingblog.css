@@ -6,9 +6,7 @@
   --color-grey:#707070;
   --color-green:#72e777;
 }
-#cart{
-    transform: scale(1);
- }
+ 
 .product-card {
   position: relative;
   max-width: 380px;
@@ -17,6 +15,10 @@
   transition: all 0.35s;
 
   /* border: 1px solid #e7e7e7; */
+}
+#cart {
+  transform: scale(1);
+  margin-top: 103px;
 }
 .product-card .product-head {
   padding: 0 15px 8px;

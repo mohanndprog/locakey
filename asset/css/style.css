@@ -569,7 +569,9 @@ img.img4 {
     border-radius: 10px;
 }
 /***/
-
+section.goals {
+  margin-top: 52px;
+}
 .btn-check:focus + .btn-primary, .btn-primary:focus {
     color: #fff;
     background-color: 0;
@@ -888,7 +890,7 @@ text-align: center;
 #email .container{
     background-color: #F57A38;
     width: 34%;
-    height: 330px;
+    height:458px !important;
     border-radius: 45px;
 }
 #email .container img{
@@ -1192,6 +1194,55 @@ button.owl-dot.active:focus{
   
   transition: all 0.3s ease 0s;
 }
+.product-linkss{
+  color: #666;
+  background-color: #fff;
+  font-size: 18px;
+  line-height: 42px;
+  width: 40px;
+  list-style: none;
+  height: 40px;
+  border-radius: 50px;
+  display: block;
+}
+.product-grid .product-linkss {
+  padding: 0px;
+  margin: 2px 0px;
+  list-style: none;
+  opacity: 1;
+  position: absolute;
+  bottom: 0px;
+  right: 244px;
+  top: 150px;
+ 
+}
+.product-grid .product-linkss li a{
+  color: #666;
+  background-color: #fff;
+  font-size: 18px;
+  line-height: 42px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  display: block;
+ 
+}
+.product-grid .product-linkss li{
+  margin: 0 0 10px 0;
+ 
+ 
+}
+.product-linkss{
+  display: none;
+}
+.product-grid .product-linkss li a .icon{
+  transform: scale(0.9);
+  text-align: center;
+}
+.product-grid .product-linkss li a li{
+  transform: scale(0.5);
+}
+
 .product-grid .product-links li a .icon{
   transform: scale(0.9);
   text-align: center;
@@ -2017,7 +2068,7 @@ img.thankyou {
   float: right;
   text-align: right;
   margin-left: 46px;
-  margin-top: -51px;
+  margin-top: -58px;
 }
 .dropdown-menu.p-0.m-0.dropdown-menu-right.dropdown-menu-anim-up.dropdown-menu-lg.show {
   position: absolute;
@@ -2070,8 +2121,48 @@ p.card-text.text-center.price.fullproductdetails {
 }
 input.form-control {
 
-  margin-top:
-13px
-
-;
+  margin-top:13px;
 }
+
+section#email {
+  margin-top: 49px;
+}
+button.btn.btn-primary.checkout.mb-3 {
+  margin-top: 13px !important;
+}
+.cart-item-product-thumb.position-relative {
+  margin: 2px;
+}
+#email .container img {
+  width: 300px;
+  margin-top: -48px;
+  text-align: center;
+}
+ 
+p.pic-2.imgbutom2.shop {
+    height: 77px;
+    border-radius: 0px 0px 30px 30px;
+    top: 76.5% !important;
+    left: 0%;
+    display: flex;
+    width: 100% !important;
+}
+span.top-left.imgtop1.shop {
+  top: 81% !important;
+    left: 27% !important;
+}
+
+
+/* ------------------ */
+.product-grid .product-links {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  opacity: 0;
+  position: absolute;
+  bottom: 0px;
+  right: 236px;
+  top: 150px;
+  transition: all 0.3s ease 0s;
+}
+/* ------------------ */

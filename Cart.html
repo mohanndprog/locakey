@@ -590,6 +590,7 @@
       //console.log(value);
       var newValue = parseInt(value) - 1;
       if(newValue < 0) newValue=0;
+      
       $("#product-quantity-input").val(newValue);
       CalcPrice(newValue);
     });
