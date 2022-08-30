@@ -2166,3 +2166,6 @@ span.top-left.imgtop1.shop {
   transition: all 0.3s ease 0s;
 }
 /* ------------------ */
+.px-3.my-3.iconn.text-right {
+  display: none;
+}

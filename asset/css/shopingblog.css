@@ -360,12 +360,16 @@ span.text-xl.font-weight-medium {
   .cart-item .cart-item-product {
     width: auto;
   }
+  .cart-item {
+    padding-right: 10px;
+    padding-bottom: 52px;
+}
 }
 @media (max-width: 768px) {
   .cart-item {
     padding-right: 10px;
-    padding-bottom: 15px;
-  }
+    padding-bottom: 52px;
+}
   .cart-item .cart-item-product {
     display: block;
     width: 100%;
